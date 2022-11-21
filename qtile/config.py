@@ -202,16 +202,16 @@ screens = [
                widget.Volume(
                     foreground = colors[8],
                     background = foregroundColorTwo,
-                    fmt = ': {}',
+                    fmt = ' {}',
                     padding = 2
                     ),
                 widget.Battery(
                     charge_char ='',
                     discharge_char = '',
-                    format = '  {percent:2.0%} {char}',
+                    format = ' {percent:2.0%} {char}',
                     foreground = colors[6],
                     background = foregroundColorTwo,
-                    padding = 2,
+                    padding = 8,
                     ),
                 widget.Clock(format=' %a, %d. %m. %Y. |  %I:%M %p',
 					foreground = colors[2],
