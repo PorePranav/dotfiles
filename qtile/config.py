@@ -152,7 +152,7 @@ layouts = [
 
 widget_defaults = dict(
     font = 'Hack',
-    fontsize = 13,
+    fontsize = 16,
     padding = 2,
     background = colors[0]
 )
@@ -162,12 +162,6 @@ screens = [
     Screen(
         top = bar.Bar(
             [
-                widget.Image(
-                    filename = '~/.config/qtile/icons/python.png',
-                    scale = 'False',
-                    margin_x = 5,
-                    mouse_callbacks = {'Button1': lambda: qtile.cmd_spawn(mySecondaryMenu)}
-                    ),
                 widget.GroupBox(
 					margin_x = 5,
 					active = colors[2],
